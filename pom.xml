@@ -13,10 +13,11 @@
     <description>Pruebas automatizadas de API con Karate Framework sobre Automation Exercise</description>
 
     <properties>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <karate.version>1.4.1</karate.version>
+        <java17.home>/Users/nahulemes/.jdk/jdk-17.0.16/jdk-17.0.16+8/Contents/Home</java17.home>
     </properties>
 
     <dependencies>
@@ -44,6 +45,7 @@
                 <version>3.2.5</version>
                 <configuration>
                     <argLine>-Dfile.encoding=UTF-8</argLine>
+                    <jvm>${java17.home}/bin/java</jvm>
                 </configuration>
             </plugin>
         </plugins>
