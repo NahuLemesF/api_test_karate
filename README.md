@@ -74,6 +74,11 @@ Los endpoints PUT `/api/brandsList` y DELETE `/api/verifyLogin` están diseñado
 
 > **Nota técnica:** La API de Automation Exercise siempre retorna HTTP status `200`. El código real de respuesta se encuentra dentro del campo `responseCode` del JSON. Por eso en los `.feature` se usa `status 200` junto con la validación del `responseCode` interno.
 
+## Evidencia del Test (captura del reporte)
+
+<img width="1470" height="709" alt="image" src="https://github.com/user-attachments/assets/291105dd-3da8-4f37-856b-bf3df0b7b240" />
+
+
 ## Referencia
 
 - [Documentación de la API](https://automationexercise.com/api_list)
