@@ -1,24 +1,19 @@
-# API Test Karate - Automation Exercise
+# API Test Karate
 
-Proyecto académico de pruebas automatizadas sobre la API pública de [Automation Exercise](https://automationexercise.com/api_list), utilizando **Karate Framework** y **Maven**.
+Proyecto de pruebas automatizadas sobre la API pública de [Automation Exercise](https://automationexercise.com/api_list), utilizando **Karate Framework** y **Maven**.
 
 ## Tecnologías utilizadas
 
 - [Karate Framework 1.4.1](https://github.com/karatelabs/karate)
 - [Maven 3.x](https://maven.apache.org/)
-- Java 17+
+- Java 21
 - JUnit 5
 
 ## Requisitos previos
 
-- **Java 17 o 21** instalado (`java -version`) — Se recomienda Java 21 LTS. Java 25+ puede presentar incompatibilidades con GraalVM JS.
+- **Java 21** instalado (`java -version`) — Se recomienda Java 21 LTS. Java 25+ puede presentar incompatibilidades con GraalVM JS.
 - **Maven 3.x** instalado (`mvn -version`)
 - Conexión a internet (la API es pública)
-
-> **Tip:** Si tienes múltiples versiones de Java, puedes seleccionar la correcta con:
-> ```bash
-> export JAVA_HOME=$(/usr/libexec/java_home -v 21)  # macOS
-> ```
 
 ## Estructura del proyecto
 
@@ -83,3 +78,9 @@ Los endpoints PUT `/api/brandsList` y DELETE `/api/verifyLogin` están diseñado
 
 - [Documentación de la API](https://automationexercise.com/api_list)
 - [Documentación de Karate](https://github.com/karatelabs/karate)
+
+---
+
+## Autores
+
+[Nahuel Lemes](https://github.com/NahuLemesF) - [Santiago Angarita](https://github.com/sanavi01)
